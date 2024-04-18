@@ -1,12 +1,9 @@
 Procedure FibonacciSeries
-  Input: limit (upper limit for Fibonacci series)
+  Input: <limit>
     Initialize variables: a = 0, b = 1
-    
-    // Print the first two numbers of Fibonacci series
     Print a
     Print b
     
-    // Loop to generate Fibonacci series up to the given limit
     While b <= limit
         next_fibonacci = a + b
         If next_fibonacci > limit
